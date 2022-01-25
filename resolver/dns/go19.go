@@ -21,9 +21,8 @@
 package dns
 
 import (
+	"context"
 	"net"
-
-	"golang.org/x/net/context"
 )
 
 var (

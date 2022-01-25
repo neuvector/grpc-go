@@ -21,12 +21,12 @@
 package dns
 
 import (
+	"context"
 	"errors"
 	"fmt"
 	"net"
 	"testing"
 
-	"golang.org/x/net/context"
 	"google.golang.org/grpc/internal/leakcheck"
 	"google.golang.org/grpc/resolver"
 )
